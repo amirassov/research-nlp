@@ -1,0 +1,45 @@
+\documentclass[handout,t]{beamer}
+\usepackage[russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{amssymb}
+\usepackage[square,sort,comma,numbers]{natbib}
+\usepackage{pgfpages}
+\usepackage{enumerate}
+\usepackage{color}
+\usepackage{ifthen}
+\usepackage{capt-of}
+\usetheme{Madrid}
+\usepackage{soul}
+
+\usecolortheme{ufrn}
+
+\title[NLP: state-of-the-art]{Современные нейросетевые подходы в области обработки естественного языка}
+\author{Мирас Амир}
+\institute[МГУ]{МГУ имени М.В. Ломоносова}
+\date{\today}
+
+
+\begin{document}
+\frame{\titlepage}
+\section[]{}
+\begin{frame}{Содержание}
+	\setbeamertemplate{itemize items}[square]
+	\tableofcontents
+\end{frame}
+
+\include{tex/introduction/introduction}
+\include{tex/history/history}
+\include{tex/awd/awd}
+\include{tex/ULMFiT/ULMFiT}
+\include{tex/tcn/tcn}
+\include{tex/transformer/transformer}
+
+\include{tex/references/references}
+
+\end{document}
